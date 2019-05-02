@@ -2,9 +2,9 @@
    :target: https://github.com/thekad/docker-syncthing/releases
    :alt: Github
 
-.. image:: https://img.shields.io/docker/automated/thekad/docker-syncthing.svg
+.. image:: https://img.shields.io/docker/automated/thekad/syncthing.svg
    :alt: Automated docker builds
-   :target: https://hub.docker.com/r/thekad/docker-syncthing
+   :target: https://hub.docker.com/r/thekad/syncthing
 
 .. image:: https://quay.io/repository/thekad/syncthing/status
    :alt: Automated Quay builds
