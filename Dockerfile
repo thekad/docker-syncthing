@@ -1,11 +1,13 @@
-FROM docker.io/library/alpine:3.8
+FROM docker.io/library/alpine:latest
 
-ENV SYNCTHING_VERSION 1.2.0
+ARG SYNCTHING_VERSION=1.2.2
+
 ENV SYNCTHING_HTTP_PORT 8384
 ENV LANG en_US.UTF-8
 
 RUN apk --no-progress update && \
-    apk --no-progress add curl tar && \
+    apk --no-progress upgrade && \
+    apk --no-progress add curl tar dumb-init && \
     curl --silent \
         --location \
         --output /tmp/syncthing-v${SYNCTHING_VERSION}.tar.gz \
@@ -22,4 +24,5 @@ COPY start.sh /start.sh
 
 USER syncthing
 
-ENTRYPOINT ["/start.sh"]
+ENTRYPOINT ["/usr/bin/dumb-init"]
+CMD ["/start.sh"]
