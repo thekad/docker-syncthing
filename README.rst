@@ -1,13 +1,13 @@
-.. image:: https://img.shields.io/github/tag/thekad/docker-syncthing.svg
+.. image:: https://img.shields.io/github/tag/thekad/docker-syncthing
+   :alt: Github release
    :target: https://github.com/thekad/docker-syncthing/releases
-   :alt: Github
 
-.. image:: https://img.shields.io/docker/automated/thekad/syncthing.svg
-   :alt: Automated docker builds
+.. image:: https://img.shields.io/docker/build/thekad/syncthing
+   :alt: Docker build status
    :target: https://hub.docker.com/r/thekad/syncthing
 
 .. image:: https://quay.io/repository/thekad/syncthing/status
-   :alt: Automated Quay builds
+   :alt: Quay build status
    :target: https://quay.io/repository/thekad/syncthing
 
 Easy File Sharing 
