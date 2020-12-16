@@ -2,7 +2,7 @@
    :alt: Github release
    :target: https://github.com/thekad/docker-syncthing/releases
 
-.. image:: https://img.shields.io/docker/build/thekad/syncthing
+.. image:: https://img.shields.io/docker/cloud/build/thekad/syncthing
    :alt: Docker build status
    :target: https://hub.docker.com/r/thekad/syncthing
 
